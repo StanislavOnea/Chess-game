@@ -1,0 +1,34 @@
+xboard
+protover 2
+accepted myname
+accepted san
+accepted sigint
+new
+random
+level 40 5 0
+post
+hard
+time 30000
+otim 30000
+d2d4
+R H B Q K B H R 
+P P P P P P P P 
+* * * * * * * * 
+* * * * * * * * 
+* * * P * * * * 
+* * * * * * * * 
+P P P * P P P P 
+R H B Q K B H R 
+
+R H B Q K * H R 
+P P P P P P P P 
+* * * * * * * * 
+* * * * * * * * 
+* * * P * B * * 
+* * * * * * * * 
+P P P * P P P P 
+R H B Q K B H R 
+
+result * {xboard exit}
+force
+quit

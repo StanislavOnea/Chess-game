@@ -1,0 +1,41 @@
+
+    Proiect realizat de Cebotari Zinaida, Stanislav Onea,
+    Anna-Maria Peduraru, Laurențiu Niță.
+
+    Motorul de șah - este realizat în următoarele etape:
+
+    Piesele de șah - Stanislav Onea a realizat clasele necesare pentru
+reprezentarea pieselor de șah, clasa Piece și copiii ei. Clasa peace moștenește
+mai multe clase copiii, care reprezintă fiecare tip de piesă. Clasa părinte conține
+trei membri care descriu fiecare piesă, tipul, culoarea ei și starea(dacă a fost
+batută sau nu). Clasa pionului are un câmp în plus, pentru a duce evidența dacă se
+realizează prima mișcare cu acest pion, atunci are posibilitatea să înainteze cu
+două poziții în față.
+
+    Tabla de șah - pentru reprezentarea ei internă, Anna-Maria Peduraru a creat o clasă
+Cell, care reprezintă o căsuță de pe tabla de șah. Fiecare obiect Cell conține o piesă,
+aceasta este nulă, dacă nu e nici o piesă pe acea căsuță. Conține două numere întregi,
+care reprezintă coordonatele piesei/căsuței pe tabla de șah. Iar în clasa Board această
+tablă este reprezentată sub forma unei matrice de tip Cell. Clasa Board mai conține o
+metodă pentru inițializarea tablei de șah la începutul jocului( O(n^2)) și o metodă movePiece,
+care mută o piesă.
+
+    Interfața cu Xboard - algorimul de comunicare cu Xboard a fost realizat de Cebotari
+Zinaida, dar au participat toți membrii echipei pentru documentarea în acest sens,
+testarea diferitor comezi trimise/primite de la Xboard. Sursa principală de informare a
+fost documentația oficiala Xboard[1].
+
+    Astfel motorul de șah știe să interpreteze comenzile primite de la Xboard: ”xboard”,
+”e2e4” - mișcpări în format ”e2e4”,  ”protover N”, ”force”, ”new”, ”go”, ”quit” și să îi trimită
+mutări de piese, ”resign”, ”feature ...”.
+
+    Mișcarea pionului - a fost mai interactiv pentru noi să realizăm mișcarea pentru toți
+pionii. Algorimul a fost scris de Niță Laurențiu. Au sugerat toți idei de implementare
+și am testat cu toții diferite situații. Acest algoritm folosește pioni luați la
+întamplare și realizează mișcari până nu mai sunt pioni disponibili cu care ar putea face o
+mutare sau un pion de culoarea cu care joacă motorul a devenit regină. Complexitatea metodei
+de căutare a pionilor disponibili în cel mai râu caz este O(n^2) unde n este dimensinea matricii,
+iar găsirea unui pion random pentru a face o mișcare are în cel mai rău caz o complexitate de O(n)
+unde n = moves.
+
+[1] https://www.gnu.org/software/xboard/engine-intf.html

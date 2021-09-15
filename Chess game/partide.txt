@@ -1,0 +1,12 @@
+[Event "Computer Chess Game"]
+[Site "zinaida-X550MD"]
+[Date "2021.05.05"]
+[Round "-"]
+[White "zinaida"]
+[Black "Player1"]
+[Result "*"]
+[TimeControl "300+2"]
+
+1. Nf3 a5 2. Nh4 b6 3. Ng6 Nf6 4. Nxf8 d5 5. Ng6 Na6 6. Nf4 O-O
+{xboard exit (Clocks: 302, 311)} *
+

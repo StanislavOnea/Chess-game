@@ -1,0 +1,69 @@
+locale = LC_CTYPE=en_US.UTF-8;LC_NUMERIC=ro_RO.UTF-8;LC_TIME=ro_RO.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=ro_RO.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=ro_RO.UTF-8;LC_NAME=ro_RO.UTF-8;LC_ADDRESS=ro_RO.UTF-8;LC_TELEPHONE=ro_RO.UTF-8;LC_MEASUREMENT=ro_RO.UTF-8;LC_IDENTIFICATION=ro_RO.UTF-8
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + make (v4.9.1-12-g90acbcf9-dirty)
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+655 >first : xboard
+protover 2
+667 <first : java Main
+1204 <first : feature myname="Player1"
+1205 >first : accepted myname
+1205 <first : feature san=0
+1205 >first : accepted san
+1205 <first : feature sigint=0
+1205 >first : accepted sigint
+10664 >first : new
+random
+10668 >first : level 40 5 0
+10668 >first : post
+10668 >first : hard
+nps: w=-1, b=-1
+nps: w=-1, b=-1
+73303 >first : time 30000
+73303 >first : otim 30000
+book hit = (NULL)
+73303 >first : g2g4
+73461 <first : move a7a5
+89355 >first : time 29984
+89356 >first : otim 28410
+book hit = (NULL)
+89356 >first : b1c3
+89462 <first : move a5a4
+92385 >first : time 29973
+92386 >first : otim 28118
+book hit = (NULL)
+92386 >first : c3d5
+92485 <first : move a4a3
+99402 >first : time 29963
+99402 >first : otim 27426
+book hit = (NULL)
+99402 >first : d5c7
+99501 <first : move a3b2
+Reset(1, 1) from gameMode 2
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+110719 >first : force
+shuffleOpenings = 0
+110725 >first : new
+random
+110726 >first : level 40 5 0
+110726 >first : post
+110726 >first : hard
+nps: w=-1, b=-1
+nps: w=-1, b=-1
+116960 >first : time 30000
+116960 >first : otim 30000
+book hit = (NULL)
+116961 >first : c2c4
+117039 <first : move b2c1
+GameEnds(29, xboard exit, 2)
+119365 >first : result * {xboard exit}
+119365 >first : force
+119366 >first : quit

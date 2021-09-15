@@ -1,0 +1,139 @@
+xboard
+protover 2
+accepted myname
+accepted san
+accepted sigint
+new
+random
+level 0 5 2
+post
+hard
+time 30000
+otim 30200
+g1f3
+R H B Q K B H R 
+P P P P P P P P 
+* * * * * * * * 
+* * * * * * * * 
+* * * * * * * * 
+* * * * * H * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R H B Q K B H R 
+* P P P P P P P 
+* * * * * * * * 
+P * * * * * * * 
+* * * * * * * * 
+* * * * * H * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+time 30188
+otim 30304
+f3h4
+R H B Q K B H R 
+* P P P P P P P 
+* * * * * * * * 
+P * * * * * * * 
+* * * * * * * H 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R H B Q K B H R 
+* * P P P P P P 
+* P * * * * * * 
+P * * * * * * * 
+* * * * * * * H 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+time 30378
+otim 30387
+h4g6
+R H B Q K B H R 
+* * P P P P P P 
+* P * * * * H * 
+P * * * * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R H B Q K B * R 
+* * P P P P P P 
+* P * * * H H * 
+P * * * * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+time 30567
+otim 30427
+g6f8
+R H B Q K H * R 
+* * P P P P P P 
+* P * * * H * * 
+P * * * * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R H B Q K H * R 
+* * P * P P P P 
+* P * * * H * * 
+P * * P * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+time 30757
+otim 30461
+f8g6
+R H B Q K * * R 
+* * P * P P P P 
+* P * * * H H * 
+P * * P * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R * B Q K * * R 
+* * P * P P P P 
+H P * * * H H * 
+P * * P * * * * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+time 30946
+otim 30497
+g6f4
+R * B Q K * * R 
+* * P * P P P P 
+H P * * * H * * 
+P * * P * * * * 
+* * * * * H * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+R * B Q * R K * 
+* * P * P P P P 
+H P * * * H * * 
+P * * P * * * * 
+* * * * * H * * 
+* * * * * * * * 
+P P P P P P P P 
+R H B Q K B * R 
+
+result * {xboard exit}
+force
+quit
